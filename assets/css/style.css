@@ -1,24 +1,70 @@
+body {
+    background-image: url(https://image.freepik.com/free-photo/white-gray-color-wood-texture-surface_74190-8288.jpg);
+    font-family: 'Be Vietnam', sans-serif;
+    font-size: 20px;
+}
+
 nav {
     background-color: teal;
+    position: ;
+}
+
+nav .nav-wrapper {
+    position: -webkit-sticky;
+    position: sticky;
 }
 
 h2 {
     text-align: center;
+    color: teal;
+}
+
+.brand-logo {
+    margin-left: 25px;
 }
 
 p{
     text-align: center;
+    color: black;
 }
 
-#left-stack, #right-stack {
+.tech-skills{
     display: inline-block;
-    text-align: left;
 }
+    
+
+
+#left-stack #right-stack {
+    text-align: center;
+    color: black;
+    text-align:left;
+}
+
 
 #section-white {
-    background-color: gray;
+    opacity: 5;
 }
 
 .carousel {
-    background-color: black;
+    /* background-color: black; */
+}
+
+.parallax-container .parallax img {
+    opacity: 10;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:350px;
+}
+
+.parallax-container {
+    /* position: relative;
+    overflow: hidden; */
+    height: 350x;
+}
+
+.section-white {
+    opacity: 10;
 }
