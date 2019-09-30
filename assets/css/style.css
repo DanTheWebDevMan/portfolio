@@ -28,7 +28,7 @@ p{
     width: 100%;
     /* height: 300px; */
     opacity: 5;
-    height: 400px;
+    height: 325px;
 
   }
 
@@ -63,7 +63,7 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 50%;
     opacity: none;
   }
 
@@ -82,6 +82,7 @@ footer {
     padding-top: 25px;
     position: sticky;
     width: 100%;
+    text-align: center;
 }
 
 h3 {
@@ -118,5 +119,13 @@ img {
 }
 
 .collapsible-header {
+    text-align: center;
+}
+
+form {
+    color:white;
+}
+
+.email {
     text-align: center;
 }
