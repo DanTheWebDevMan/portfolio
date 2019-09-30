@@ -1,13 +1,8 @@
 // function for carousel effect
 $(document).ready(function () {
+    $(".dropdown-trigger").dropdown({ hover: false });
     $('.carousel').carousel();
     $('.parallax').parallax({ speed: 0.2 });
-    $(".dropdown-trigger").dropdown({ hover: false });
+
 });
 
-// dropdown funtion in nav-bar
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.parallax');
-    var instances = M.Parallax.init(elems, options);
-    console.log(instances);
-});
