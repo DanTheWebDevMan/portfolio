@@ -1,17 +1,11 @@
 body {
-    background-image: url(https://image.freepik.com/free-photo/white-gray-color-wood-texture-surface_74190-8288.jpg);
     font-family: 'Be Vietnam', sans-serif;
     font-size: 20px;
 }
 
 nav {
     background-color: teal;
-    position: ;
-}
-
-nav .nav-wrapper {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
 }
 
 h2 {
@@ -26,45 +20,52 @@ h2 {
 p{
     text-align: center;
     color: black;
-}
-
-.tech-skills{
-    display: inline-block;
-}
-    
-
-
-#left-stack #right-stack {
-    text-align: center;
-    color: black;
-    text-align:left;
+    z-index: 99;
 }
 
 
-#section-white {
-    opacity: 5;
-}
+.parallax-container .parallax img {
+    width: 100%;
+    /* height: 300px; */
+    opacity: 9;
 
-.carousel {
+  }
+
+  .parallax img {
+    position: absolute;
+    width: 100vmax;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    pointer-events: none
+  }
+
+  .parallax {
+    min-height: 500px; 
+    background-image: url(https://image.freepik.com/free-photo/white-gray-color-wood-texture-surface_74190-8288.jpg);
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .carousel {
     /* background-color: black; */
 }
 
-.parallax-container .parallax img {
-    opacity: 10;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    height:350px;
+footer {
+    background-color: teal;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    position: sticky;
 }
 
-.parallax-container {
-    /* position: relative;
-    overflow: hidden; */
-    height: 350x;
-}
-
-.section-white {
-    opacity: 10;
-}
+.block{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+  }
