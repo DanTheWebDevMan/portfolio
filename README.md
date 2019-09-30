@@ -5,4 +5,4 @@ Portfolio displaying applications created during my tenure at UT's Coding Bootca
 #Techonologies Used#
 HTML, CSS, Javascript, Materialize
 
-
+Link to website: https://danthewebdevman.github.io/portfolio/.
